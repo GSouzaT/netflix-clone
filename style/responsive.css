@@ -1,0 +1,44 @@
+@media screen and (max-width:700px) {
+    .base {
+        flex-direction: column;
+    }
+
+    .user-button {
+        display: none;
+    }
+
+    .recomended-wrap {
+        height: 300px;
+    }
+
+    .description {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+    .recomended-wrap {
+        align-items: flex-start;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .recomended-button {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:1336px) {
+
+    .description {
+        font-size: 25px;
+    }
+
+    .recomended-button {
+        font-size: 20px;
+    }
+
+}
