@@ -1,0 +1,109 @@
+:root {
+    --main: rgb(34, 34, 34);
+    --font: rgb(175, 175, 175);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main);
+    color: var(--font);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.base {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px 0 10px;
+}
+
+.logo {
+    color: rgb(200, 255, 0);
+    cursor: default;
+    font-size: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: large;
+    color: var(--font);
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.user-button{
+    background-color: var(--main);
+    border: none;
+    color: var(--font);
+    font-size: medium;
+}
+
+.user-button:hover {
+    cursor: pointer;
+}
+
+.recomended-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url('../img/recomendation.jpg');
+    background-size: cover;
+    height: 500px;
+    color: #fff;
+}
+
+.recomendation {
+    margin-left: 15px;
+}
+
+.title {
+    font-size: 40px;
+}
+
+.description {
+    width: 40%;
+}
+
+.button-main {
+    flex-direction: row;
+    margin-top: 15px;
+}
+.recomended-button {
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.recomended-button i {
+    margin-right: 5px;
+}
+
+.recomended-button:hover {
+    color: var(--main);
+    background-color: #fff;
+}
+
+.corousel-name {
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0 10px 15px;
+}
+
+.item {
+    margin-left: 10px;
+}
